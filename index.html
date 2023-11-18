@@ -20,39 +20,7 @@
     </div><br>
     
     <p id="inputlength"><span class="g">只今の文字数は、<span class="g">--<span class="g">文字です。</p>
-    <script>
-        function ShowLength( str ) {
-            document.getElementById("inputlength").innerHTML ="只今の文字数は、 " + str.length + "   文字です。";
-        }
-        $(function() {
-            $(".c").click(function() {
-                $(".ad").toggleClass("C");
-            });
-        });
-    </script>
-    <script>
-        var inputElem   = document.getElementsByName('textarea')[0],
-    copyBtnElem = document.getElementsByTagName('button')[0];
-
-copyBtnElem.addEventListener('click', function() {
-	if (document.execCommand) {
-		inputElem.focus();
-		inputElem.select();
-
-		var result = document.execCommand('copy');
-
-		if (result) {
-
-		} else {
-			alert('コピーに失敗しました。');
-		}
-	} else {
-		alert('お使いのブラウザはコピー機能に対応していません。');
-	}
-}, false);
-btn.addEventListener('click', () => {
-      btn.textContent = 'コピーしました!';
-});
-    </script>
+    <script src="count.js"></script>
+    <script src="copy.js"></script>
 </body>
 </html>
