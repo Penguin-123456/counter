@@ -1,7 +1,7 @@
 # counter
 文字数カウンターです。
 
-##使い方
+## 使い方
 
 1.このページを開いてください。[https://penguin-123456.github.io/counter/](https://penguin-123456.github.io/counter/)
 
