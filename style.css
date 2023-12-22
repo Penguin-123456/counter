@@ -4,10 +4,9 @@
             font-size: 30px;
         }
         textarea{
-            font-family: 'Klee One',cursive;
             font-size: 2rem;
             width: 100%;
-            height: 1363px;
+            resize: vertical;
         }
         #btn{
             border: 4px solid #000;
